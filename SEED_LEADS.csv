@@ -1,0 +1,7 @@
+lead_source,channel_name,status,notes
+Dexerto/Kapwing Jan 2026,Three Minute Wisdom,LEAD-UNVERIFIED,"Majority of content wiped by YouTube; channel may persist — check live status"
+Dexerto/Kapwing Jan 2026,Bandar Apna Dost,LEAD-UNVERIFIED,"Indian AI monkey-content channel, ~2B views, retained content post-purge — verify current state"
+Kapwing 278-channel study,TBD,PIPELINE,"Fetch full Kapwing study next session; extract still-live channels as leads"
+AiSList repo (CC BY-NC),TBD,LEADS-ONLY,"License = NonCommercial. Use as lead pointers for independent verification ONLY, never copy"
+surasshu AI-music blocklist,TBD,LEADS-ONLY,"Same policy: leads for independent verification"
+Google Ads placement reports,TBD,BEST-SOURCE,"Client mini-audits surface live ad-served slop directly — every audit feeds the dataset"

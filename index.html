@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SlopAudit — Is your YouTube ad budget funding AI slop?</title>
+<meta name="description" content="20%+ of YouTube Shorts shown to new users is AI slop. Your Google Ads placements are probably paying for it. Free placement audit + verified exclusion lists for advertisers and agencies.">
+<style>
+  :root{--bg:#0d1117;--panel:#161b22;--ink:#e6edf3;--soft:#8b949e;--accent:#f0731f;--green:#2ea043;--line:#30363d;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;line-height:1.6;}
+  .wrap{max-width:880px;margin:0 auto;padding:0 22px;}
+  .mono{font-family:ui-monospace,'SF Mono',Menlo,monospace;}
+  a{color:var(--accent);}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-bottom:1px solid var(--line);}
+  .logo{font-weight:800;font-size:1.1rem;letter-spacing:-.01em;}
+  .logo span{color:var(--accent);}
+  header{padding:72px 0 56px;}
+  h1{font-size:clamp(2rem,5vw,3rem);line-height:1.15;letter-spacing:-.02em;max-width:760px;}
+  h1 em{font-style:normal;color:var(--accent);}
+  .sub{margin-top:20px;font-size:1.12rem;color:var(--soft);max-width:640px;}
+  .stats{display:flex;gap:34px;margin-top:36px;flex-wrap:wrap;}
+  .stat b{display:block;font-size:1.7rem;color:var(--accent);}
+  .stat span{font-size:.85rem;color:var(--soft);}
+  .cta-row{margin-top:40px;display:flex;gap:14px;flex-wrap:wrap;}
+  .btn{display:inline-block;padding:14px 26px;border-radius:8px;text-decoration:none;font-weight:700;font-size:.95rem;border:1px solid var(--line);color:var(--ink);}
+  .btn-primary{background:var(--accent);border-color:var(--accent);color:#0d1117;}
+  .btn:hover{filter:brightness(1.1);}
+  section{padding:56px 0;border-top:1px solid var(--line);}
+  h2{font-size:1.7rem;margin-bottom:10px;letter-spacing:-.01em;}
+  .section-sub{color:var(--soft);margin-bottom:30px;max-width:620px;}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:24px;}
+  .card h3{font-size:1.05rem;margin-bottom:8px;}
+  .card p{font-size:.92rem;color:var(--soft);}
+  .card .price{margin-top:14px;font-weight:800;color:var(--accent);}
+  ol.how{margin:20px 0 0 20px;max-width:640px;}
+  ol.how li{margin-bottom:12px;color:var(--soft);}
+  ol.how b{color:var(--ink);}
+  .note{background:var(--panel);border-left:3px solid var(--green);padding:16px 20px;border-radius:0 8px 8px 0;margin-top:28px;font-size:.92rem;color:var(--soft);}
+  footer{border-top:1px solid var(--line);padding:32px 0 56px;font-size:.85rem;color:var(--soft);}
+  @media(max-width:560px){header{padding:48px 0 40px;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <div class="logo">SLOP<span>AUDIT</span></div>
+    <div class="mono" style="font-size:.8rem;color:var(--soft);">placement hygiene for YouTube advertisers</div>
+  </nav>
+
+  <header>
+    <h1>Your YouTube ads are probably funding <em>AI slop.</em></h1>
+    <p class="sub">
+      Mass-produced AI channels publish dozens of videos a day, and Google Ads happily serves your
+      placements on them. Your brand pays; nobody human even watches. We find those placements
+      and cut them.
+    </p>
+    <div class="stats">
+      <div class="stat"><b>20%+</b><span>of Shorts shown to new users is AI slop (Kapwing)</span></div>
+      <div class="stat"><b>4.7B</b><span>views purged by YouTube in Jan 2026 — after ads ran on them</span></div>
+      <div class="stat"><b>56%</b><span>of media experts call AI-content adjacency a top brand-safety risk (IAS)</span></div>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="mailto:revanthmn.mys@gmail.com?subject=Free placement mini-audit&body=Hi — I'd like the free mini-audit. Attached is our YouTube placement report export (last 30 days).">Get a free mini-audit →</a>
+      <a class="btn" id="listBtn" href="#" target="_blank" rel="noopener">Get the free exclusion list</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>What we do</h2>
+    <p class="section-sub">One thing, properly: placement hygiene against AI-generated channel networks.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Free mini-audit</h3>
+        <p>Email us your Google Ads placement report (CSV export, 2 clicks). We screen your top 200 YouTube placements against our slop criteria and send back the flagged ones. Free, 48h turnaround.</p>
+        <div class="price">$0</div>
+      </div>
+      <div class="card">
+        <h3>Full placement audit</h3>
+        <p>Every placement screened, evidence notes per flagged channel, ready-to-upload Google Ads exclusion file, plus wasted-spend estimate. Per account.</p>
+        <div class="price">$99 intro</div>
+      </div>
+      <div class="card">
+        <h3>Verified exclusion list</h3>
+        <p>Our continuously updated, human-verified slop channel list, formatted for direct Google Ads import. Free tier available; full list subscription coming soon.</p>
+        <div class="price">Free tier</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How verification works</h2>
+    <p class="section-sub">Every channel on our list is independently verified by a human analyst — never bulk-copied from anywhere.</p>
+    <ol class="how">
+      <li><b>Volume forensics.</b> Upload cadence vs. channel age — humans can't publish 6 produced videos a day, every day.</li>
+      <li><b>Template detection.</b> Recycled scripts, title patterns, identical structures with swapped nouns.</li>
+      <li><b>Synthetic markers.</b> TTS narration fingerprints, AI-image artifacts, zero behind-the-scenes human presence.</li>
+      <li><b>Evidence file.</b> Each listed channel carries documented reasons — and a public correction process if we get one wrong.</li>
+    </ol>
+    <div class="note">
+      We deliberately do <b>not</b> flag channels that merely use AI tools in a human-led workflow.
+      The list targets mass-produced synthetic content farms — the ones your customers never wanted to be seen next to.
+    </div>
+  </section>
+
+  <section>
+    <h2>Why now</h2>
+    <p class="section-sub" style="max-width:720px;">
+      YouTube purged 16 slop networks in January 2026 — 4.7 billion views, an estimated ~$10M/year in ad revenue. That money came from
+      advertisers like you, and the purge only caught the biggest offenders. Enterprise tools (DoubleVerify) now ship "AI slop" detection —
+      at enterprise prices. SlopAudit is the same hygiene for everyone else: small agencies, D2C brands, solo media buyers.
+    </p>
+  </section>
+
+  <footer>
+    <div><b>SLOPAUDIT</b> · human-verified placement hygiene · est. 2026</div>
+    <div class="mono" style="margin-top:8px;">contact: revanthmn.mys@gmail.com · corrections honored within 72h</div>
+  </footer>
+</div>
+<script>
+  /* Paste your Tally waitlist form URL here */
+  const LIST_FORM_URL = "REPLACE_WITH_TALLY_URL";
+  const b = document.getElementById("listBtn");
+  b.href = LIST_FORM_URL;
+  b.addEventListener("click", e => { if(LIST_FORM_URL.startsWith("REPLACE")){ e.preventDefault(); alert("List form not connected yet."); } });
+</script>
+</body>
+</html>
